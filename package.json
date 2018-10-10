@@ -1,0 +1,19 @@
+{
+  "name": "chatter",
+  "version": "1.0.0",
+  "description": "'chat app'",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app sass main.scss:style.css"
+  },
+  "author": "Anshul Gangwar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4",
+    "sass": "^1.14.1"
+  }
+}
